@@ -23,7 +23,7 @@ styled-components — CSS-in-JS styling
 Create React App — Build tooling
 
 🚀 Getting Started
-bash# Install dependencies
+# Install dependencies
 npm install
 
 # Run development server
