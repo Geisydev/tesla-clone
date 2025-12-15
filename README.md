@@ -1,46 +1,51 @@
-# Getting Started with Create React App and Redux
+Tesla Clone
+A recreation of Tesla's website built to learn styled-components and practice modern React patterns.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+🎯 Purpose
+This project was built as a learning exercise to:
 
-## Available Scripts
+Master styled-components for CSS-in-JS styling
+Practice Redux Toolkit for state management
+Recreate a professional, production-quality UI
 
-In the project directory, you can run:
+✨ Features
 
-### `npm start`
+Responsive design matching Tesla's official website
+Smooth scroll animations and transitions
+Component-based architecture with reusable styled elements
+Redux state management for car model data
 
-Runs the app in the development mode.\
+🛠️ Tech Stack
+
+React 18 — UI library
+Redux Toolkit — State management
+styled-components — CSS-in-JS styling
+Create React App — Build tooling
+
+🚀 Getting Started
+bash# Install dependencies
+npm install
+
+# Run development server
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📁 Project Structure
+```
+src/
+├── app/                 # Redux store configuration
+├── components/
+│   ├── Header.js        # Navigation header
+│   ├── Home.js          # Main page layout
+│   └── Section.js       # Reusable car section component
+├── features/
+│   └── car/
+│       └── carSlice.js  # Redux slice for car data
+├── App.js               # Root component
+└── index.js             # Entry point
 
-### `npm test`
+📸 Preview
+<img width="2556" height="1328" alt="image" src="https://github.com/user-attachments/assets/515db4a0-6231-42a5-aae6-64d54e3fd0e3" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
