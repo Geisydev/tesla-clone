@@ -25,10 +25,10 @@ This project was built as a learning exercise to:
 # 🚀 Getting Started
 
 - Install dependencies
-npm install
+```npm install```
 
 - Run development server
-npm start
+```npm start```
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
