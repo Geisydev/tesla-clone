@@ -1,4 +1,5 @@
-# The Tesla Clone project is a recreation of Tesla's website built to learn styled-components and practice modern React patterns.
+# The Tesla Clone project 
+A recreation of Tesla's website built to learn styled-components and practice modern React patterns.
 
 # 🎯 Purpose
 This project was built as a learning exercise to:
