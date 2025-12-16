@@ -34,7 +34,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## 📁 Project Structure
 
-<img width="992" height="598" alt="image" src="https://github.com/user-attachments/assets/72e4c8ae-b612-4852-ad29-d3e09bca0508" />
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/72e4c8ae-b612-4852-ad29-d3e09bca0508" />
 
 📸 Preview
 <img width="2556" height="1328" alt="image" src="https://github.com/user-attachments/assets/515db4a0-6231-42a5-aae6-64d54e3fd0e3" />
